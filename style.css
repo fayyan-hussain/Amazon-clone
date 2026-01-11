@@ -178,8 +178,10 @@ span {
     flex-wrap: wrap;
     justify-content: space-evenly;
     /* gap: 20%; */
-    /* background: -webkit-gradient(linear, top,
-            bottom, from(#f6fa01), to(#ecece3)); */
+    /* background-color: #f6fa01; */
+    background: -webkit-gradient(linear, left top,
+            left bottom, from(#f6fa01), to(#a8cfce));
+
     /* height: 200px; */
 
 }
@@ -190,10 +192,10 @@ span {
     width: 23%;
     position: relative;
     top: -300px;
-    /* flex: 1 1 23%; */
+    flex: 1 1 23%;
     background-color: white;
     padding: 20px 0px 15px;
-    margin: 0px 20px;
+    margin: 10px 20px;
 }
 
 .box-image {
@@ -211,4 +213,78 @@ span {
     margin-left: 10px;
     margin-right: 10px;
 
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px
+}
+
+.foot-panel2 {
+    background-color: #222f3c;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 25px;
+}
+
+ul p {
+    font-size: 20px;
+}
+
+ul a {
+    display: block;
+    color: #dddddd;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.foot-panel3 {
+    background-color: #222f3c;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foot-logo {
+    height: 50px;
+    width: 100px;
+}
+
+
+.logo2 {
+   background-image: url(./image/amazonf1.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+     /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+
+}
+.pages{
+text-align: center;
+padding-top: 25px;
+}
+.copyright{
+text-align: center;
+padding-top: 1px;
 }
